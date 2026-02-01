@@ -1,139 +1,323 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>QuantumPulse AB - RPA & Automation Experts | Täby, Stockholm</title>
-    <meta name="description" content="UiPath RPA development, custom software, enterprise integration with Azure/SharePoint. 20+ years experience. Book free consultation.">
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <meta charset="UTF-8" />
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+	
+    <title data-translate="title">
+        QuantumPulse AB - RPA Automation Experts | Täby, Stockholm
+    </title>
+    <meta
+        name="description"
+        content="UiPath RPA development, custom software, enterprise integration with Azure/SharePoint. 20 years experience. Book free consultation."
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet"
+    />
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+
 </head>
 <body>
     <header id="home">
         <nav class="navbar">
             <div class="nav-container">
-                <!-- QuantumPulse AB Logo with name -->
-                <div class="logo">
-                    <svg class="logo-svg" viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg">
-                        <!-- Pulse wave icon -->
-                    
-                    <img src="logosmall1.png" alt="logo">
-             
-                    
-                    </svg>
+                <!-- Logo + name -->
+                <div class="logo-svg">
+                   <a href="#home">  <img src="img/logosmall1.png" alt="logo" class="logo" /></a>
                 </div>
-				 <div class="CompanyName">
-				    <!-- Quantum text -->
-                        <text font-family="Inter, sans-serif" font-size="22" font-weight="800" fill="#0f4c75">QuantumPulse </text>
-                  </div>	
-						
+                <div class="CompanyName">
+                    <span class="TextColor1">Quantum</span>
+                    <span class="TextColor2">Pulse</span>
+                </div>
+				
+
+				
+
+                <!-- Navigation -->
                 <ul class="nav-menu">
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#services">Services</a></li>
-                    <li><a href="#portfolio">Portfolio</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#home" data-translate="nav.home">Home</a></li>
+                    <li><a href="#services" data-translate="nav.services">Services</a></li>
+                    <li>                        <a href="#usecases" data-translate="nav.usecases">Industry</a>                    </li>
+                    <li><a href="#about" data-translate="nav.about">About Us</a></li>
+                    <li><a href="#contact" data-translate="nav.contact">Contact Us</a></li>
+					 <li>        <!-- Language flags -->
+
+
+    <div data-sessionkey="order" class="language-modal">
+      <div id="swedish" class="swedish newHover" title="Swedish">
+                    <button class="lang-btn" data-lang="sv" aria-label="Byt till svenska" >
+                        <img src="img/se-flag-27.png" alt="Svenska" />
+                    </button>	
+      </div>
+      <div class="separator-line"></div>
+      <div id="english" class="english newHover" title="English">
+<button class="lang-btn active" data-lang="en" aria-label="Switch to English" >
+                        <img src="img/united-kingdom-27.png" alt="English" />
+                    </button>	
+      </div>
+    </div>
+</li>
                 </ul>
+
+       
                 <div class="hamburger">
                     <span></span><span></span><span></span>
                 </div>
             </div>
         </nav>
-
-        <section class="hero">
-            <div class="hero-content">
-                <h1>Transform Your Business with RPA & AI Automation</h1>
-                <p>Expert UiPath development, enterprise integration, and custom software solutions. 20+ years delivering efficiency from Täby, Sweden.</p>
-                <div class="hero-buttons">
-                    <a href="#contact" class="btn btn-primary">Book Free Consultation</a>
-                    <a href="#services" class="btn btn-secondary">Our Services</a>
-                </div>
-            </div>
-            <div class="hero-stats">
-                <div><span>20+</span> Years Experience</div>
-                <div><span>50+</span> Automations Delivered</div>
-                <div><span>100%</span> Client Satisfaction</div>
-            </div>
-        </section>
     </header>
 
-    <!-- Services - Fixed heading -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>
+                <span class="TextColor1">Quantum</span
+                ><span class="TextColor2">Pulse</span>
+            </h1>
+            <h2 data-translate="hero.subtitle">
+                Efficiency, Agility, and Resilience
+            </h2>
+            <p data-translate="hero.description">
+                At QuantumPulse, we go beyond conventional consulting to serve as
+                your trusted partners in operational excellence. Specializing in
+                process automation and business optimization, we streamline
+                workflows and amplify performance.
+            </p>
+            <div class="hero-buttons">
+                <a
+                    href="#contact"
+                    class="btn btn-primary"
+                    data-translate="hero.cta1"
+                    >Book Free Consultation</a
+                >
+                <a
+                    href="#services"
+                    class="btn btn-secondary"
+                    data-translate="hero.cta2"
+                    >Our Services</a
+                >
+            </div>
+        </div>
+
+        <div class="hero-stats">
+            <div>
+                <span>36% of</span>
+                Healthcare and social services activities
+            </div>
+            <div>
+                <span>43% of</span>
+                Banking, financial services, and insurance processes
+            </div>
+            <div>
+                <span>60% of</span>
+                Manufacturing related tasks
+            </div>
+        </div>
+    </section>
+
+    <header>
+        <canvas id="bgCanvas"></canvas>
+    </header>
+
+    <!-- Services -->
     <section id="services" class="services">
         <div class="container">
-            <h2 class="section-title">Our Core Services</h2>
+            <h2 class="section-title" data-translate="services.title">
+                Our Core Services
+            </h2>
             <div class="services-grid">
                 <div class="service-card">
                     <i class="fas fa-robot" aria-hidden="true"></i>
-                    <h3>Robotic Process Automation</h3>
-                    <p>UiPath bots, Document Understanding (DU/ML), queue management, agentic AI for invoice workflows.</p>
+                    <h3 data-translate="services.rpa">
+                        Robotic Process Automation
+                    </h3>
+                    <p data-translate="services.rpa.desc">
+                        Robotic process automation (RPA) uses software robots to
+                        automate repetitive, rule-based tasks like data entry and
+                        system integration. It mimics human actions in digital
+                        systems to work quickly and accurately. Today, millions of
+                        robots are at work around the world, touching virtually
+                        every industry and business process.
+                    </p>
                 </div>
+
                 <div class="service-card">
                     <i class="fas fa-code" aria-hidden="true"></i>
-                    <h3>Custom Software Development</h3>
-                    <p>VB.NET, APIs, SQL, Python with IFS/Oracle, Power Automate.</p>
+                    <h3 data-translate="services.custom">
+                        Custom Software Development
+                    </h3>
+                    <p data-translate="services.custom.desc">
+                        Custom software development creates tailored applications
+                        designed specifically for your business needs. Unlike
+                        off-the-shelf solutions, it delivers exactly the
+                        functionality, scalability, and integration you require.
+                        From streamlining internal operations to building
+                        customer-facing platforms, custom software drives
+                        efficiency and competitive advantage.
+                    </p>
                 </div>
+
                 <div class="service-card">
                     <i class="fas fa-cloud" aria-hidden="true"></i>
-                    <h3>Enterprise Integration</h3>
-                    <p>Azure, SharePoint, custom connectors, CoE, CI/CD pipelines.</p>
+                    <h3 data-translate="services.integration">
+                        Enterprise Integration
+                    </h3>
+                    <p data-translate="services.integration.desc">
+                        Enterprise integration connects disparate systems,
+                        applications, and data sources into a unified ecosystem.
+                        It eliminates silos by enabling seamless data flow across
+                        cloud platforms, legacy systems, and third-party services.
+                        This unified approach optimizes operations, reduces
+                        errors, and provides real-time insights across your entire
+                        organization.
+                    </p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Portfolio - Fixed heading -->
-    <section id="portfolio" class="portfolio">
+    <!-- Use Cases -->
+    <section id="usecases" class="usecases">
         <div class="container">
-            <h2 class="section-title">Recent Projects</h2>
-            <div class="portfolio-grid">
-                <div class="portfolio-card">
+            <h2 class="section-title" data-translate="usecases.title">
+                Industry use cases
+            </h2>
+            <div class="usecases-grid">
+                <div class="usecases-card">
                     <i class="fas fa-file-invoice" aria-hidden="true"></i>
-                    <h3>Invoice Processing Automation</h3>
-                    <p>End-to-end DU/ML for Polygon Group AP workflows, 80% time savings.</p>
+                    <h3 data-translate="usecases.finance">
+                        Finance and accounting
+                    </h3>
+                    <p>Month-end close, expense processing, audit preparation.</p>
                 </div>
-                <div class="portfolio-card">
-                    <i class="fas fa-share" aria-hidden="true"></i>
-                    <h3>Azure-SharePoint Integration</h3>
-                    <p>API-driven document flows for international teams.</p>
+                <div class="usecases-card">
+                    <i class="fas fa-users" aria-hidden="true"></i>
+                    <h3 data-translate="usecases.hr">Human resources</h3>
+                    <p>
+                        Employee onboarding, payroll processing, benefits
+                        administration.
+                    </p>
                 </div>
-                <div class="portfolio-card">
-                    <i class="fas fa-search" aria-hidden="true"></i>
-                    <h3>Process Mining CoE</h3>
-                    <p>Task mining and governance for enterprise RPA scaling.</p>
+                <div class="usecases-card">
+                    <i class="fas fa-headset" aria-hidden="true"></i>
+                    <h3 data-translate="usecases.customer">Customer service</h3>
+                    <p>Ticket routing, data updates, response automation.</p>
+                </div>
+                <div class="usecases-card">
+                    <i class="fas fa-computer" aria-hidden="true"></i>
+                    <h3 data-translate="usecases.it">IT operations</h3>
+                    <p>User provisioning, system monitoring, backup processes.</p>
+                </div>
+                <div class="usecases-card">
+                    <i class="fas fa-store" aria-hidden="true"></i>
+                    <h3 data-translate="usecases.procurement">Procurement</h3>
+                    <p>
+                        Purchase order processing, vendor onboarding, contract
+                        management.
+                    </p>
+                </div>
+                <div class="usecases-card">
+                    <i class="fas fa-umbrella" aria-hidden="true"></i>
+                    <h3 data-translate="usecases.insurance">
+                        Insurance Claims
+                    </h3>
+                    <p>
+                        Claims handling, policy administration, underwriting
+                        support.
+                    </p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- About - Fixed heading -->
+    <!-- About -->
     <section id="about" class="about">
         <div class="container">
             <div class="about-content">
                 <div class="about-text">
-                    <h2 class="section-title">About QuantumPulse AB</h2>
-                    <p>Senior RPA Architect with 20+ years IT experience. Specializing in UiPath enterprise solutions for financial automation from Täby, Stockholm.</p>
-                    <div class="about-stats">
-                        <div><span>Org Nr:</span> 559562-6523</div>
-                        <div><span>Location:</span> Täby, Stockholms län, SE</div>
-                    </div>
+             <div class="company-name">
+                    <span class="TextColor3">Quantum</span>
+                    <span class="TextColor4">Pulse</span>
+               </div>
+                    <p data-translate="about.p1">
+                        QuantumPulse AB is a Swedish automation consultancy
+                        focused on turning manual, time-consuming processes into
+                        reliable, scalable digital workflows. We combine deep
+                        experience in RPA, software development, and AI to help
+                        businesses work faster, smarter, and with fewer errors.
+                    </p>
+                    <p data-translate="about.p2">
+                        With over 15 years in software engineering and enterprise
+                        automation, we design and build end-to-end solutions using
+                        platforms like UiPath, Azure, and modern web
+                        technologies. Our work spans finance, HR, and operations,
+                        where we streamline invoice handling, data processing, and
+                        system integrations.
+                    </p>
+                    <p data-translate="about.p3">
+                        We work closely with each client to understand their
+                        processes, then deliver automations that are secure,
+                        maintainable, and ready to grow with the business.
+                        Whether you need a proof-of-concept, a production-ready
+                        robot, or a full automation strategy, QuantumPulse AB is
+                        your partner from idea to implementation.
+                    </p>
+                    <p data-translate="about.p4">
+                        QuantumPulse AB is based in Täby, Stockholm, and serves
+                        clients across Sweden and internationally. If you are
+                        exploring how automation and AI agents can transform your
+                        organization, we would be happy to discuss your needs and
+                        share concrete examples tailored to your situation.
+                    </p>
+
                 </div>
                 <div class="about-image">
-                    <img src="https://via.placeholder.com/500x500/0f4c75/ffffff?text=Your+Photo" alt="Founder Photo">
+                    <img
+                        src="img/Office.png"
+                        alt="Founder Photo"
+                    />
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Contact - Fixed heading -->
+    <!-- Contact -->
     <section id="contact" class="contact">
         <div class="container">
-            <h2 class="section-title-w">Get in Touch</h2>
+            <h2 class="section-title-w" data-translate="contact.title">
+                Get in Touch
+            </h2>
             <form class="contact-form">
-                <input type="text" placeholder="Your Name" required>
-                <input type="email" placeholder="Your Email" required>
-                <textarea placeholder="Your Message" rows="5" required></textarea>
-                <button type="submit" class="btn btn-primary">Send Message</button>
+                <input
+                    type="text"
+                    placeholder="Your Name"
+                    data-translate="form.name"
+                    required
+                />
+                <input
+                    type="email"
+                    placeholder="Your Email"
+                    data-translate="form.email"
+                    required
+                />
+                <textarea
+                    placeholder="Your Message"
+                    rows="5"
+                    data-translate="form.message"
+                    required
+                ></textarea>
+                <button
+                    type="submit"
+                    class="btn btn-primary"
+                    data-translate="form.submit"
+                >
+                    Send Message
+                </button>
             </form>
             <div class="contact-info">
                 <div><i class="fas fa-phone"></i> +46 XX XXX XX XX</div>
@@ -145,14 +329,25 @@
 
     <footer>
         <div class="container">
-            <p>&copy; 2026 QuantumPulse AB. Org Nr: 559562-6523. All rights reserved.</p>
+            <p data-translate="footer.copy">
+                © 2026 QuantumPulse AB. Org Nr 559562-6523. All rights reserved.
+            </p>
             <div class="social-links">
-                <a href="https://linkedin.com/in/yourprofile" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
-                <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                <a
+                    href="https://linkedin.com/in/yourprofile"
+                    aria-label="LinkedIn"
+                    ><i class="fab fa-linkedin"></i
+                ></a>
+                <a href="#" aria-label="GitHub"
+                    ><i class="fab fa-github"></i
+                ></a>
             </div>
         </div>
     </footer>
 
     <script src="script.js"></script>
+	    <script src="lang.js"></script>
+
+   
 </body>
 </html>
