@@ -5,14 +5,18 @@ const ctx = canvas.getContext('2d');
 function resizeCanvas() {
   canvas.width = window.innerWidth;
   canvas.height = window.innerHeight;
+
 }
 resizeCanvas();
 window.addEventListener('resize', resizeCanvas);
 
 // Particle Array
 const particles = [];
-const particleCount = 150;
-const maxDistance = 200;
+const particleCount = 0.1*canvas.height;
+const maxDistance = 180;
+
+
+
 
 // Mouse tracking (for move interaction)
 let mouse = { x: 0, y: 0 };
